@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Run By Module Test" verbose="1">
+    <test name="First Test">
+        <packages>
+            <package name="com.anhtester.firstpackage"/>
+        </packages>
+    </test>
+    <test name="Second Test">
+        <classes>
+            <class name="com.anhtester.secondpackage.FirstClass"/>
+            <class name="com.anhtester.thirdpackage.FirstClass"/>
+        </classes>
+    </test>
+    <test name="Third Test">
+        <classes>
+            <class name="com.anhtester.secondpackage.SecondClass"/>
+            <class name="com.anhtester.thirdpackage.SecondClass"/>
+        </classes>
+    </test>
+</suite>

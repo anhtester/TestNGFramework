@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteRunByCommon" verbose="1">
+    <test name="FirstTest">
+        <packages>
+            <package name="com.anhtester.firstpackage"/>
+        </packages>
+        <classes>
+            <class name="com.anhtester.secondpackage.FirstClass">
+                <methods>
+                    <include name="firstTest"/>
+                </methods>
+            </class>
+            <class name="com.anhtester.thirdpackage.SecondClass"/>
+        </classes>
+    </test>
+</suite>
