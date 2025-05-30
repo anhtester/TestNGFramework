@@ -3,8 +3,9 @@
 <suite name="SuiteRunByClass" verbose="1">
     <test name="FirstTest">
         <classes>
-            <class name="com.anhtester.firstpackage.FirstClass"/>
             <class name="com.anhtester.firstpackage.SecondClass"/>
+            <class name="com.anhtester.firstpackage.FirstClass"/>
+
         </classes>
     </test>
 </suite>

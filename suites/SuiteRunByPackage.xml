@@ -4,6 +4,7 @@
     <test name="FirstTest">
         <packages>
             <package name="com.anhtester.firstpackage"/>
+            <package name="com.anhtester.firstpackage.childpackage"/>
             <package name="com.anhtester.secondpackage"/>
             <package name="com.anhtester.thirdpackage"/>
         </packages>

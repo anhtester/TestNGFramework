@@ -10,7 +10,7 @@
             </class>
             <class name="com.anhtester.firstpackage.SecondClass">
                 <methods>
-                    <include name="firstTest"/>
+                    <include name="secondTest"/>
                 </methods>
             </class>
         </classes>

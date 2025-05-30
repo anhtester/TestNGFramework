@@ -40,3 +40,7 @@ exports/
 logs/
 .idea/
 .vs/
+test-output/
+logs/
+exports/
+*.iml

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite All" verbose="1">
+    <suite-files>
+        <suite-file path="SuiteRunByClass.xml"/>
+        <suite-file path="SuiteRunByMethod.xml"/>
+        <suite-file path="SuiteRunByPackage.xml"/>
+        <suite-file path="SuiteRunByCommon.xml"/>
+        <suite-file path="SuiteRunByExcludeMethod.xml"/>
+        <suite-file path="SuiteRunByModuleTest.xml"/>
+    </suite-files>
+</suite>
