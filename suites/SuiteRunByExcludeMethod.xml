@@ -5,12 +5,7 @@
         <classes>
             <class name="com.anhtester.firstpackage.FirstClass">
                 <methods>
-                    <include name="firstTest"/>
-                </methods>
-            </class>
-            <class name="com.anhtester.secondpackage.SecondClass">
-                <methods>
-                    <exclude name="firstTest"/>
+                    <exclude name="fourthTest"/>
                 </methods>
             </class>
         </classes>

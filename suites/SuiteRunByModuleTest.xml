@@ -8,14 +8,14 @@
     </test>
     <test name="Second Test - iOS">
         <classes>
-            <class name="com.anhtester.secondpackage.FirstClass"/>
-            <class name="com.anhtester.thirdpackage.FirstClass"/>
+            <class name="com.anhtester.secondpackage.FirstClass2"/>
+            <class name="com.anhtester.thirdpackage.FirstClass3"/>
         </classes>
     </test>
     <test name="Third Test - Browser">
         <classes>
-            <class name="com.anhtester.secondpackage.SecondClass"/>
-            <class name="com.anhtester.thirdpackage.SecondClass"/>
+            <class name="com.anhtester.secondpackage.SecondClass2"/>
+            <class name="com.anhtester.thirdpackage.SecondClass3"/>
         </classes>
     </test>
 </suite>

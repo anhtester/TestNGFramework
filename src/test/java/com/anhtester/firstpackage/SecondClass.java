@@ -3,13 +3,13 @@ package com.anhtester.firstpackage;
 import org.testng.annotations.Test;
 
 public class SecondClass {
-    @Test
+    @Test(groups = "smoke")
     public void firstTest() {
-        System.out.println("First test method");
+        System.out.println("2. First test method");
     }
 
     @Test
     public void secondTest() {
-        System.out.println("Second test method");
+        System.out.println("2. Second test method");
     }
 }

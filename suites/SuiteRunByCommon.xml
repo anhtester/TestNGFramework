@@ -3,15 +3,16 @@
 <suite name="SuiteRunByCommon" verbose="1">
     <test name="FirstTest">
         <packages>
-            <package name="com.anhtester.firstpackage"/>
+            <package name="com.anhtester.firstpackage">
+            </package>
         </packages>
         <classes>
-            <class name="com.anhtester.secondpackage.FirstClass">
+            <class name="com.anhtester.secondpackage.FirstClass2">
                 <methods>
                     <include name="firstTest"/>
                 </methods>
             </class>
-            <class name="com.anhtester.thirdpackage.SecondClass"/>
+            <class name="com.anhtester.thirdpackage.SecondClass3"/>
         </classes>
     </test>
 </suite>

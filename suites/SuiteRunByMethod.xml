@@ -6,11 +6,12 @@
             <class name="com.anhtester.firstpackage.FirstClass">
                 <methods>
                     <include name="firstTest"/>
+                    <include name="secondTest"/>
                 </methods>
             </class>
             <class name="com.anhtester.firstpackage.SecondClass">
                 <methods>
-                    <include name="secondTest"/>
+                    <include name="firstTest"/>
                 </methods>
             </class>
         </classes>

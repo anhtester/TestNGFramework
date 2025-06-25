@@ -2,7 +2,7 @@ package com.anhtester.secondpackage;
 
 import org.testng.annotations.Test;
 
-public class SecondClass {
+public class FirstClass2 {
     @Test
     public void firstTest() {
         System.out.println("First test method");
