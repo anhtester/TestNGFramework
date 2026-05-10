@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.11.0</version>
+            <version>7.12.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
@@ -44,10 +44,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version>
+                <version>3.5.5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>suites/SuiteAll.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>suites/SuiteAll.xml</suiteXmlFile>-->
+                        <suiteXmlFile>suites/SuiteRunByGroup.xml</suiteXmlFile>
+                        <suiteXmlFile>suites/SuiteRunByMethod.xml</suiteXmlFile>
+                        <suiteXmlFile>suites/SuiteRunByPackage.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

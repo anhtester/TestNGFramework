@@ -4,13 +4,14 @@
     <groups>
         <run>
             <include name="smoke"/>
+            <include name="regression"/>
         </run>
     </groups>
 
     <test name="AddNewCustomer">
         <classes>
             <class name="com.anhtester.firstpackage.FirstClass"/>
-            <class name="com.anhtester.firstpackage.SecondClass"/>
+<!--            <class name="com.anhtester.firstpackage.SecondClass"/>-->
         </classes>
     </test>
 
